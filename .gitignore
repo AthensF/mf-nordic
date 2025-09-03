@@ -6,3 +6,5 @@ tools/
 zephyr/
 
 blinky1/build
+
+build/
