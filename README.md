@@ -1,5 +1,11 @@
 # Memfault on nRF5340-DK via VSCode nRF Connect Extension
 
+## Multiple routes and guidance towards integrating memfault for nrf5 chips
+- [x] VSCode Extension nrf Connect (as per WSN & IOT youtube video)
+- [ ] nrfSDK (as per Memfault youtube video)
+- [ ] Memfault Quickstart Guide - https://docs.memfault.com/docs/mcu/quickstart-nrf5x-ncs
+- [ ] Windsurf / Cursor / your favorite AI tool :D
+
 ## Host Environment
 - Apple Silicon macOS (M2)
 - Tooling: Zephyr SDK or Nordic Toolchain Manager, CMake/Ninja, west
@@ -34,6 +40,7 @@ export ZEPHYR_SDK_INSTALL_DIR=~/zephyr-sdk-0.16.5
   - Config: `blinky1/prj.conf`
   - Source: `blinky1/src/main.c`
 - Memfault SDK (generic Zephyr port): `modules/lib/memfault-firmware-sdk/`
+- Note: I did NOT use the sdk-nrf as suggested in Memfaults youtube video, which is more specialised to NCS configurations (more proper for Nordic implementation)
 
 ## Build & Flash
 ```bash
@@ -74,5 +81,11 @@ Docs/links:
 - Memfault Quickstart for NCS (for comparison): https://docs.memfault.com/docs/mcu/quickstart-nrf5x-ncs
 
 ## References & Videos
-- Getting started (YouTube): https://www.youtube.com/watch?v=_bntjXkEdTQ
-- Memfault intro/demo (YouTube): https://www.youtube.com/watch?v=-69OiUdhPzQ
+- WSN & IOT Getting started (YouTube): https://www.youtube.com/watch?v=_bntjXkEdTQ
+- Memfault demo (YouTube): https://www.youtube.com/watch?v=-69OiUdhPzQ
+
+## Multiple routes and guidance towards integrating memfault for nrf5 chips
+- VSCode Extension nrf Connect (as per WSN & IOT youtube video)
+- nrfSDK (as per Memfault youtube video)
+- Memfault Quickstart Guide - https://docs.memfault.com/docs/mcu/quickstart-nrf5x-ncs
+- Windsurf / Cursor / your favorite AI tool :D
